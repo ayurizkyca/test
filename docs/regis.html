@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Form Registrasi</title>
+    </head>
+
+    <body>
+        <Form action = "Registrasi.php" method = "POST">
+            <fieldset>
+                <legend>Form Registrasi</legend>
+                <p>
+                    <label>Username :</label>
+                    <input type ="text" name="Username"/>
+                </p>
+
+                <p>
+                   <label>Password :</label>
+                   <input type="Password" name="Password" />
+                </p>
+                <p>
+                    <label>Asal Kota :</label>
+                    <select name="Kota" multiple>
+                        <option value ="Indonesia">Indonesia</option>
+                        <option value ="Malaysia">Malaysia</option>
+                        <option value ="Filipina">Filipina</option>
+                    </select>
+                </p>
+                <p>
+                    <label><input type="checkbox" name="Remember" value="Remember"/>Remember Me</label>
+                </p>
+                <p>
+                    <input type="submit" name="submit" value="Login"/>
+                </p>
+            </fieldset>
+        </Form>
+    </body>
+
+</html>
